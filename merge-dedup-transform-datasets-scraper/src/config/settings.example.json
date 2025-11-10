@@ -1,0 +1,15 @@
+{
+  "datasetId": "dataset_123",
+  "datasetOffset": 0,
+  "inputFiles": [
+    "data/sample_input.json"
+  ],
+  "mergedOutputFile": "data/merged_output.json",
+  "dedupOutputFile": "data/dedup_result.json",
+  "kvStoreOutputFile": "data/kvstore_export.json",
+  "dedupFields": [
+    "id",
+    "name"
+  ],
+  "defaultCategory": "Footwear"
+}
