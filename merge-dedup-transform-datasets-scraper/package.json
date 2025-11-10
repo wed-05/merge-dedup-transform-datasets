@@ -1,0 +1,24 @@
+{
+  "name": "merge-dedup-transform-datasets-scraper",
+  "version": "1.0.0",
+  "description": "High-performance dataset processor that merges, deduplicates, and transforms large data volumes in a single run.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "dataset",
+    "merge",
+    "deduplication",
+    "ETL",
+    "transform"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^11.0.0"
+  }
+}
