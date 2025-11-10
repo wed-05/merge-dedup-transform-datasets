@@ -1,0 +1,7 @@
+{
+  "dedupFields": ["id", "name"],
+  "preTransform": "normalizeStrings",
+  "postTransform": "sortById",
+  "outputMode": "dataset",
+  "logLevel": "info"
+}
