@@ -1,0 +1,2 @@
+# Python dependencies are not required for this Node.js project.
+# This file exists as a placeholder for potential future Python integrations.
