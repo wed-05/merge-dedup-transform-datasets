@@ -1,0 +1,37 @@
+[
+  {
+    "datasetId": "merged",
+    "datasetOffset": 0,
+    "items": [
+      {
+        "name": "puma runner",
+        "id": "11111",
+        "price": 49.99,
+        "__datasetId": "dataset-456",
+        "__datasetOffset": 0
+      },
+      {
+        "name": "adidas shoes",
+        "id": "12345",
+        "price": 59.99,
+        "__datasetId": "dataset-123",
+        "__datasetOffset": 0
+      },
+      {
+        "name": "nike air",
+        "id": "54321",
+        "price": 79.99,
+        "__datasetId": "dataset-123",
+        "__datasetOffset": 0
+      }
+    ],
+    "dedupFields": ["id", "name"],
+    "outputMode": "dataset",
+    "transformationFunctions": ["normalizeStrings", "sortById"],
+    "stats": {
+      "inputCount": 4,
+      "outputCount": 3,
+      "duplicateCount": 1
+    }
+  }
+]
