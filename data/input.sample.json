@@ -1,0 +1,18 @@
+[
+  {
+    "datasetId": "dataset-123",
+    "datasetOffset": 0,
+    "items": [
+      { "name": "Adidas Shoes", "id": "12345", "price": 59.99 },
+      { "name": "Nike Air", "id": "54321", "price": 79.99 }
+    ]
+  },
+  {
+    "datasetId": "dataset-456",
+    "datasetOffset": 0,
+    "items": [
+      { "name": "  adidas   shoes  ", "id": "12345", "price": 59.99 },
+      { "name": "Puma Runner", "id": "11111", "price": 49.99 }
+    ]
+  }
+]
